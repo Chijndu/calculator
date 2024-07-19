@@ -65,3 +65,27 @@ body{
     background-color: #fdba00;
     color: white;
 }
+@media screen and (max-width:600px) {
+    .container{
+        display: flex;
+        width: 300px;
+        height: 450px;
+        margin: px auto;
+        
+    }
+    #display{
+        font-weight: 550;
+        font-size: 35px;
+    }
+    .buttonbox{
+        border: 1px solid white;
+        margin-top: 45px;
+
+    }
+    .btn{
+        width: 40px;
+        height: 40px;
+        margin: 9px;
+        margin-top: 15px;
+     }
+}
